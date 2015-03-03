@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    diff highlighted the exact differences between the two files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Not sure??? Having a revision history allows you to see how the file
+    has changed over time. Not sure how this make you more efficient???
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+
+    You choose choose what is meaningful to commit rather it's a few lines or
+    a whole new feature, etc.
+
+    Avoid commiting features that do not make logical since.
+
+    Cons:
+
+    Up to the user to decide when to commit, there for can miss large logical
+    places to commit or forget ot commit all together.
+
+    Can also over commit making revision control cluttered.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Many changes occur over multiple files. Therefore being able to track changes
+    over multiple files is a big advantage and time saver.
+
+    Google Docs is more geared for programs that rely on one file so it does
+    not track changes over multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log - to see the different commits that were made were made to projects.
+
+    git diff - to see the differences made between to commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    get checkout - used to roll back your project to a previous commit point.
+
+    this feature provides an easy way to get back to a know working version of
+    the software. So you can make changes and explore knowing you can always 
+    easily get back to a known working copy.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    my SPY movement web page!!!
