@@ -12,3 +12,8 @@ How is the staging area different from the working directory and the repository?
 	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging area.
 
 	git reset [filename1] [filename2] [filenameX] ...: remove files from the Staging area.
+
+What value do you think it offers?
+
+	The Staging area allows you to review all changes before they are committed.
+
