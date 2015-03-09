@@ -17,3 +17,8 @@ What value do you think it offers?
 
 	The Staging area allows you to review all changes before they are committed.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	You can verify the staging area contains all correct file changes before commiting.
+
+	
