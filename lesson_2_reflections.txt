@@ -21,4 +21,29 @@ How can you use the staging area to make sure you have one commit per logical ch
 	
 	You can verify the staging area contains all correct file changes before commiting.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	
+	You want to try out new features without affecting the main project.
+
+	Branches allow you to modify code and still keep a copy of the original code.
+
+
+
+
+Git commands:
+
+	git init: Initializes a git reposiotry by setting up a hidden .git
+		directory but does not add any files or commits.
+
+	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging
+		area.
+
+	git reset [filename1] [filename2] [filenameX] ...: remove files from the
+		Staging area.
+
+	git status: shows files in the Staging Area and the Working Directory.
+
+	git commit: moves files from the Staging Area to the repository.
+
+	git diff: changes between files in the working directory and the staging
+		area.
