@@ -21,4 +21,16 @@ How can you use the staging area to make sure you have one commit per logical ch
 	
 	You can verify the staging area contains all correct file changes before commiting.
 
+
+
+
+
+
+Git commands:
+
+	git init: Initializes a git reposiotry by setting up a hidden .git
+		directory but does not add any files or commits.
+
+
+
 	
