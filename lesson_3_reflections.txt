@@ -9,6 +9,20 @@ Why might you want to always pull changes manually rather than having Git automa
 	So you can control when and where Git stores changes such as on another
 		branch.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	forks: creates a clone of someone else project in your repositories.
+		Changes made will not show up in the user's original project.
+		Use this when you don't have premission to work on some elses
+		code.
+
+	clones: makes a copy of a repository, has no affect on the original
+		repository. Not sure why you would use this over a branch???
+
+	branch: use a branch to try our experimental changes on your project
+        without affecting the original code. Can easily merge the experimental
+		changes with the main code once all bugs are fixed.
+
 
 Git commands:
 
