@@ -37,3 +37,48 @@ What is the result of merging two branches together? Why do we represent it in t
 
 
 
+
+Git commands:
+
+	git init: Initializes a git reposiotry by setting up a hidden .git
+		directory but does not add any files or commits.
+
+	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging
+		area.
+
+	git reset [filename1] [filename2] [filenameX] ...: remove files from the
+		Staging area.
+
+	git status: shows files in the Staging Area and the Working Directory.
+
+	git commit: moves files from the Staging Area to the repository.
+
+	git diff: changes between files in the working directory and the staging
+		area.
+
+	git diff --staged: compare changes between files in the staging area and
+		the latest commit in the repository.
+
+	git diff id1 id2: compare changes between 2 repository commits.
+
+	git checkout master: moves to the most recent commit in the repository.
+
+	git branch: shows all repository branches.
+
+	git branch [branch name]: creates a branch in the repository.
+
+	git branch -d [branch name]: deletes a branch name in the repository.
+
+	git checkout [branch name]: switch to [branch name] in the repository.
+
+	git checkout -b [new branch name]: creates a new branch and checkout the new 
+		branch.
+
+	git merge [branch1 branch2]: combindes the two branch repositories.
+
+	git show [repository id]: shows the difference between this file and it's
+		parent.
+
+	git log --graph --oneline [branch1 name] [branch2 name]
+
+	git remote: show all remotes.
