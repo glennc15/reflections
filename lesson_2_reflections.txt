@@ -31,7 +31,9 @@ How do the diagrams help you visualize the branch structure?
 
 	The diagrams give a visual representation of the different commit and branch structures.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+	The changes from the latest commit of each branch are merged into a single repository. This new repository is the master leaf of the two merged branches.  The repositories from each branch are merged into one branch with each respoitry sorted by date/time stamp.
 
 
 Git commands:
