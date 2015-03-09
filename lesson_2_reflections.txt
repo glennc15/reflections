@@ -54,3 +54,18 @@ Git commands:
 	git branch: shows all repository branches.
 
 	git branch [branch name]: creates a branch in the repository.
+
+	git branch -d [branch name]: deletes a branch name in the repository.
+
+	git checkout [branch name]: switch to [branch name] in the repository.
+
+	git checkout -b [new branch name]: creates a new branch and checkout the new 
+		branch.
+
+
+	git show [repository id]: shows the difference between this file and it's
+		parent.
+
+	git log --graph --oneline [branch1 name] [branch2 name]
+
+	git remote: show all remotes.
