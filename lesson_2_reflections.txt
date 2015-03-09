@@ -36,20 +36,4 @@ What is the result of merging two branches together? Why do we represent it in t
 	The changes from the latest commit of each branch are merged into a single repository. This new repository is the master leaf of the two merged branches.  The repositories from each branch are merged into one branch with each respoitry sorted by date/time stamp.
 
 
-Git commands:
 
-	git init: Initializes a git reposiotry by setting up a hidden .git
-		directory but does not add any files or commits.
-
-	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging
-		area.
-
-	git reset [filename1] [filename2] [filenameX] ...: remove files from the
-		Staging area.
-
-	git status: shows files in the Staging Area and the Working Directory.
-
-	git commit: moves files from the Staging Area to the repository.
-
-	git diff: changes between files in the working directory and the staging
-		area.
