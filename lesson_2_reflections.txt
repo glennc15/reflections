@@ -62,6 +62,7 @@ Git commands:
 	git checkout -b [new branch name]: creates a new branch and checkout the new 
 		branch.
 
+	git merge [branch1 branch2]: combindes the two branch repositories.
 
 	git show [repository id]: shows the difference between this file and it's
 		parent.
