@@ -1,1 +1,66 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+	Everytime! If for nothing else then to have a remote backup incase your machine fails or if you are working from another computer.
+
+	Also good for working in teams.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	So you can control when and where Git stores changes such as on another
+		branch.
+
+
+Git commands:
+
+	git init: Initializes a git reposiotry by setting up a hidden .git
+		directory but does not add any files or commits.
+
+	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging
+		area.
+
+	git reset [filename1] [filename2] [filenameX] ...: remove files from the
+		Staging area.
+
+	git status: shows files in the Staging Area and the Working Directory.
+
+	git commit: moves files from the Staging Area to the repository.
+
+	git diff: changes between files in the working directory and the staging
+		area.
+
+	git diff --staged: compare changes between files in the staging area and
+		the latest commit in the repository.
+
+	git diff id1 id2: compare changes between 2 repository commits.
+
+	git checkout master: moves to the most recent commit in the repository.
+
+	git branch: shows all repository branches.
+
+	git branch [branch name]: creates a branch in the repository.
+
+	git branch -d [branch name]: deletes a branch name in the repository.
+
+	git checkout [branch name]: switch to [branch name] in the repository.
+
+	git checkout -b [new branch name]: creates a new branch and checkout the new 
+		branch.
+
+	git merge [branch1 branch2]: combindes the two branch repositories.
+
+	git show [repository id]: shows the difference between this file and it's
+		parent.
+
+	git log --graph --oneline [branch1 name] [branch2 name]
+
+	git remote: show all remotes.
+
+	git remote add [remote name] [github repository URL]: adds a remote
+		location  to github.com so repositories can be pushed and fetched from
+		the remote site.
+
+	git push [github repository name] [branch]: pushes [branch] to the 
+		github repository.
+
+	git pull [remote] [branch]: pulls repositories from GitHub remote site to the 
+		branch specified.
