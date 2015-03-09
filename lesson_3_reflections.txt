@@ -23,6 +23,10 @@ Describe the differences between forks, clones, and branches. When would you use
         without affecting the original code. Can easily merge the experimental
 		changes with the main code once all bugs are fixed.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	So you can use git merge to combine the two branches. Or can inspect the 
+		new branch.
 
 Git commands:
 
