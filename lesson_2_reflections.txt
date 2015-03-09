@@ -31,6 +31,15 @@ Git commands:
 	git init: Initializes a git reposiotry by setting up a hidden .git
 		directory but does not add any files or commits.
 
+	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging
+		area.
 
+	git reset [filename1] [filename2] [filenameX] ...: remove files from the
+		Staging area.
 
-	
+	git status: shows files in the Staging Area and the Working Directory.
+
+	git commit: moves files from the Staging Area to the repository.
+
+	git diff: changes between files in the working directory and the staging
+		area.
