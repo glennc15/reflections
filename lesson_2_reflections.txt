@@ -43,3 +43,14 @@ Git commands:
 
 	git diff: changes between files in the working directory and the staging
 		area.
+
+	git diff --staged: compare changes between files in the staging area and
+		the latest commit in the repository.
+
+	git diff id1 id2: compare changes between 2 repository commits.
+
+	git checkout master: moves to the most recent commit in the repository.
+
+	git branch: shows all repository branches.
+
+	git branch [branch name]: creates a branch in the repository.
