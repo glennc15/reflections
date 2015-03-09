@@ -5,3 +5,10 @@ What happens when you initialize a repository? Why do you need to do it?
 
 	Need to do this so you can begin using git for version control.
 
+How is the staging area different from the working directory and the repository? 
+
+	Staging area is an area to prepare files to be committed.
+
+	git add [filename1] [filename2] [filenameX] ...: adds files to the Staging area.
+
+	git reset [filename1] [filename2] [filenameX] ...: remove files from the Staging area.
